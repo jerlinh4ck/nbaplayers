@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NBA PLAYERS</title>
+    <link rel="icon" href="Images/logo.png">
+    <link rel="stylesheet" href="style.css" />
+
+  </head>
+  <body>
+
+    <section class="slider-container">
+      <div class="slider-images">
+        <div class="slider-img">
+          <img src="Images/1.jpg" alt="1" />
+          <h1>Morant</h1>
+          <div class="details">
+            <h2>Base</h2>
+          <a href="https://espndeportes.espn.com/basquetbol/nba/jugador/_/id/4279888/ja-morant" style="text-decoration: none;"
+          target="_blank"><p>Ja Morant</p></a>
+
+          </div>
+
+        </div>
+
+        <div class="slider-img">
+          <img src="Images/2.jpg" alt="2" />
+          <h1>Curry</h1>
+          <div class="details">
+            <h2>Base</h2>
+            <a href="https://espndeportes.espn.com/basquetbol/nba/jugador/_/id/3975/stephen-curry"  style="text-decoration: none;"
+          target="_blank"><p>Stephen Curry </p></a>
+          </div>
+
+        </div>
+
+        <div class="slider-img">
+          <img src="Images/3.jpg" alt="3" />
+          <h1>Durant</h1>
+          <div class="details">
+            <h2>Alero</h2>
+            <a href="https://espndeportes.espn.com/basquetbol/nba/jugador/_/id/3202/kevin-durant"  style="text-decoration: none;"
+            target="_blank"><p>Kevin Durant </p></a>
+          </div>
+
+        </div>
+
+        <div class="slider-img active">
+          <img src="Images/4.jpg" alt="4" />
+          <h1>James</h1>
+          <div class="details">
+            <h2>Alero</h2>
+            <a href="https://espndeportes.espn.com/basquetbol/nba/jugador/_/id/1966/lebron-james"  style="text-decoration: none;"
+            target="_blank"><p>Lebron James </p></a>
+          </div>
+
+        </div>
+
+        <div class="slider-img">
+          <img src="Images/5.jpg" alt="5" />
+          <h1>Lamelo</h1>
+          <div class="details">
+            <h2>Base</h2>
+            <a href="https://espndeportes.espn.com/basquetbol/nba/jugador/_/id/4432816/lamelo-ball"  style="text-decoration: none;"
+            target="_blank"><p>Lamelo Ball </p></a>
+          </div>
+
+        </div>
+
+        <div class="slider-img">
+          <img src="Images/6.jpg" alt="6" />
+          <h1>Tatum</h1>
+          <div class="details">
+            <h2>Alero</h2>
+            <a href="https://espndeportes.espn.com/basquetbol/nba/jugador/_/id/4065648/jayson-tatum"  style="text-decoration: none;"
+            target="_blank"><p>Jayson Tatum</p></a>
+          </div>
+
+        </div>
+
+        <div class="slider-img">
+          <img src="Images/7.jpg" alt="7" />
+          <h1>Edwards</h1>
+          <div class="details">
+            <h2>Escolta</h2>
+            <a href="https://espndeportes.espn.com/basquetbol/nba/jugador/_/id/4594268/anthony-edwards"  style="text-decoration: none;"
+            target="_blank"><p>Anthony Edwards</p></a>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+    
+    <script src="js/jQuery.js"></script>
+    <script>
+      jQuery(document).ready(function ($) {
+        $(".slider-img").on("click", function () {
+          $(".slider-img").removeClass("active");
+          $(this).addClass("active");
+        });
+      });
+    </script>
+  </body>
+</html>
